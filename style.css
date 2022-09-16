@@ -1,0 +1,253 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.header {
+    background-color: rgba(47, 106, 153, 1.0);
+    height: 60px;
+    width: 100%;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(47, 106, 153, 1.0);
+    transition: all 0.5s;
+    font-size: 16px;
+    font-family: Cambria;
+}
+
+.header-right a {
+    line-height: 60px;
+    padding: 0 20px ;
+    color:black;
+    display: block;
+    float: left; 
+}
+
+.header-right a:hover {
+    line-height: 60px;
+    padding: 0 20px ;
+    color:black;
+    display: block;
+    float: left;
+    background-color:whitesmoke;
+}
+
+img.logo {
+    float: left;
+    width: 150px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+/*Bagian Atas*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.top-wrapper {
+    background-image: url(img/4.png);
+    padding: 150px 0 100px 0;
+    color: whitesmoke;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+    font-family: "poppins";
+}
+
+.top-wrapper h2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    
+    font-family: "cambria";
+    font-style: italic;
+}
+
+.top-wrapper p {
+    padding-top: 75px;
+    padding-bottom: 10px;
+    color: yellow;
+    font-size: 25px;
+    font-family: "times new roman";
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.signup {
+    background-color: rgb(0, 152, 213);
+    margin-right: 50px;
+}
+
+.facebook {
+    background-color: rgb(0, 152, 213);
+    text-align: right;
+    margin-left: 50px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1
+}
+
+.fa {
+    margin-right: 5px;
+}
+/*Bagian Lesson*/
+.lesson img {
+    width: 420px;
+  }
+
+.lesson-wrapper {
+    width: auto;
+    height: 500px;
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+  
+.lesson {
+    float: left;
+    width: 33%;
+    align-items: center;
+}
+  
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p:hover {
+    font-size: 29px;
+    cursor: pointer;
+}
+  
+.lesson-icon p {
+    padding: 10px 0;
+    margin-top: -70px;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px; 
+    margin-left: 60px;
+    font-family: "Lucida-Sans";
+    position: absolute;
+}
+  
+.txt-contents  {
+    width: 100%;
+    display: inline-block;
+    font-size: 23px;
+    color: rgb(0, 152, 213);
+    font-family: "";
+    text-align: center; 
+    margin-top: -20px;  
+  }
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    border-bottom: 3px solid black;
+    padding: 50px; 
+    text-align: center;
+    background-color: whitesmoke;
+    height: 100px;
+    
+}
+
+.heading h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.heading h3 {
+    font-size: 25px;
+}
+/*Bagian Form*/
+.contact-form {
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    height: 175px;
+}
+
+.contact-form p {
+    padding-top: 10px;
+}
+
+textarea {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.contact-submit {
+    color: black;
+    margin-left: -246px;
+    border:none;
+}
+
+input.contact-submit {
+    padding: 5px 10px;
+    background-color: rgb(0, 152, 213) ;
+    font-size: 16px;
+    box-shadow: 0 3px rgb(47, 106, 153);
+    cursor: pointer;
+}
+
+input.contact-submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+/*BAGIAN FOOTER*/
+.footer {
+    padding: 20px;
+    background-color: rgb(47, 106, 153);
+    height: 130px;
+}
+
+.footer-logo img {
+    float: left;
+    width: 350px;
+}
+
+.footer-right {
+    float: right;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.footer-right a {
+    color: black;
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
